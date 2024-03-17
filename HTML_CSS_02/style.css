@@ -1,0 +1,66 @@
+/* selector(es) {
+    propiedad: valor;
+} */
+
+/* ***** DIV header ***** */
+.titulo-header {
+    padding-left: 30px;
+}
+
+/* ***** DIV .principal ***** */
+.principal {
+    background-color: #CCCCCC;
+    padding: 20px;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+#banner {
+    width: 100%;
+}
+
+p {
+    text-align: center;
+}
+
+#mision {
+    font-size: 20px;
+}
+
+em strong {
+    color: red;
+}
+
+/* ***** DIV .diferenciales ***** */
+
+.diferenciales {
+    background-color: white;
+    padding: 30px;
+}
+
+.items {
+    font-style: italic;
+}
+
+ul {
+    /* Alineación con bloques de izq. a der. */
+    display: inline-block;
+    vertical-align: top;
+    width: 50%;
+    background-color: #CCCCCC;
+    box-sizing: border-box;
+}
+
+.imgDiferenciales {
+    display: inline-block;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+/* ***** Ambos DIV ***** */
+
+.titulo-centrado {
+    text-align: center;
+}

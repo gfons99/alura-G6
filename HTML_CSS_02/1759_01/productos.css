@@ -1,0 +1,102 @@
+header {
+    background-color: #bbbbbb;
+    padding: 20px 0;
+    /* 20px top-down, 0 left-right */
+}
+
+.caja {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+    /* Margen centrado verticalmente: 0 top-down, auto left-right */
+}
+
+nav {
+    position: absolute;
+    top: 114px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0px 0px 0px 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+/* Captura del evento: mouse sobre el elemento */
+nav a:hover {
+    color: #c78c19;
+    text-decoration: underline;
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    /* Margen centrado verticalmente: 0 top-down, auto left-right */
+    padding: 50px 0;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    /* background-color: #BBBBBB; */
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    /*vertical, horizontal*/
+    box-sizing: border-box;
+    /*los px serán contabilizados en los %*/
+
+    border-width: 4px;
+    border-style: dashed;
+    border-color: #000000;
+    border-radius: 20px;
+}
+/* evento: mouse sobre */
+.productos li:hover {
+    border-color: #c78c19;
+}
+/* evento: clic */
+.productos li:active {
+    border-color: green;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+/* evento: mouse sobre */
+.productos li:hover h2 {
+    font-size: 33px;
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    /* background-color: #000000; */
+    background: url(imagenes/bg.jpg);
+    text-align: center;
+    padding: 40px;
+}
+
+.copyright {
+    color: #cccccc;
+    font-size: 13px;
+    margin: 20px;
+}

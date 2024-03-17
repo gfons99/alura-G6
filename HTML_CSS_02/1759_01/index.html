@@ -1,0 +1,71 @@
+<!-- Desde HTML5 sirve para indicar al navegador el tipo de documento -->
+<!DOCTYPE html>
+
+<!-- Indica que todo el código dentro de la etiqueta es código HTML -->
+<!-- Idioma a utilizar -->
+<html lang="es">
+
+<head>
+    <!-- Diccionario de caracteres a utilizar -->
+    <meta charset="UTF-8">
+    <!-- Título de la pestaña -->
+    <title>Barbería Alura</title>
+
+    <!-- Código CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Encabezado: Es como un DIV especial-->
+    <header>
+        <h1 class="titulo-header">Barbería</h1>
+    </header>
+
+    <!-- N. Esta etiqueta no tiene cierre -->
+    <img id="banner" src="banner.jpg" alt="">
+
+    <div class="principal">
+        <h2 class="titulo-centrado">Sobre la Barbería Alura</h2>
+
+        <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el
+            mercado lo que hay de mejor para
+            su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos
+            clientes
+            diariamente.</p>
+
+        <!-- Se utiliza un selector de id en lugar de un selector de etiqueta -->
+        <p id="mision"><em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros
+                    clientes".</strong> </em></p>
+
+        <p>Ofrecemos profesionales experimentados que están constantemente
+            observando los cambios y movimiento en el mundo de la
+            moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de
+            excelencia
+            y
+            agilidad, garantizando calidad y satisfacción de nuestros clientes.</p>
+    </div>
+
+    <div class="diferenciales">
+        <h3 class="titulo-centrado">Diferenciadores</h3>
+        <!-- Para crear listas no ordenadas-->
+        <!-- N. Las listas por defecto ocupan todo el ancho -->
+        <ul>
+            <li class="items">Atención personalizada</li>
+            <li class="items">Espacio agradable</li>
+            <li class="items">Buena localización</li>
+            <li class="items">Profesionales calificados</li>
+        </ul><img src="diferenciales.jpg" alt="" class="imgDiferenciales">
+        <!-- Para crear listas ordenadas-->
+        <!-- <ol></ol> -->
+
+        
+
+    </div>
+</body>
+
+<!-- Negritas -->
+<strong></strong>
+<!-- Itálicas -->
+<em></em>
+
+</html>
