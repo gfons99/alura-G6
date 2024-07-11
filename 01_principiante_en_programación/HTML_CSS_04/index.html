@@ -1,0 +1,125 @@
+<!-- Desde HTML5 sirve para indicar al navegador el tipo de documento -->
+<!DOCTYPE html>
+
+<!-- Indica que todo el código dentro de la etiqueta es código HTML -->
+<!-- Idioma a utilizar -->
+<html lang="es">
+
+<head>
+    <!-- Diccionario de caracteres a utilizar -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <!-- Título de la pestaña -->
+    <title>Barbería Alura</title>
+
+    <!-- Código CSS -->
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style_main.css">
+
+    <!-- Fuentes de texto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;1,300&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Encabezado: Es como un DIV especial-->
+    <header>
+        <div class="caja">
+            <h1><img src="imagenes/logo.png" alt="Logo de la Barbería Alura"></h1>
+            <!-- Panel de navegación -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- N. Esta etiqueta no tiene cierre -->
+    <img class="banner" src="imagenes/banner.jpg" alt="">
+
+    <main>
+        <p>
+            Párrafo ejemplo
+        </p>
+        <section class="principal">
+            <h2 class="titulo-principal">Sobre la Barbería Alura</h2>
+
+            <img class="utensilios" src="imagenes/utensilios.jpg" alt="Utensilios de un barbero.">
+
+            <p>Ubicada en el corazón de la ciudad, la <strong>Barbería Alura</strong> trae para el
+                mercado lo que hay de mejor para
+                su cabello y barba. Fundada en 2020, la Barbería Alura ya es destaque en la ciudad y conquista nuevos
+                clientes
+                diariamente.</p>
+
+            <!-- Se utiliza un selector de id en lugar de un selector de etiqueta -->
+            <p id="mision">
+                <em>Nuestra misión es: <strong>"Proporcionar autoestima y calidad de vida a nuestros clientes".</strong> </em>
+            </p>
+
+            <p>Ofrecemos profesionales experimentados que están constantemente
+                observando los cambios y movimiento en el mundo de la
+                moda, para así ofrecer a nuestros clientes las últimas tendencias. El atendimiento posee un padrón de
+                excelencia
+                y
+                agilidad, garantizando calidad y satisfacción de nuestros clientes.</p>
+        </section>
+
+        <section class="mapa">
+            <h3 class="titulo-principal">Nuestra Ubicación</h3>
+            <p>Nuestro establecimiento está ubicado en el corazón de la ciudad.</p>
+
+            <div class="mapa-contenido">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4078401372108!2d-46.6346381!3d-23.589702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5bd9bb943bf5%3A0x6f642995c970f0fe!2scaelum%20alura!5e0!3m2!1ses-419!2smx!4v1710828795304!5m2!1ses-419!2smx"
+                    width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+
+        <section class="diferenciales">
+            <h3 class="titulo-principal">Diferenciadores</h3>
+            <div class="contenido-diferenciales">
+                <!-- Para crear listas no ordenadas-->
+                <!-- N. Las listas por defecto ocupan todo el ancho -->
+                <ul class="lista-diferenciales">
+                    <li class="items">Atención personalizada</li>
+                    <li class="items">Espacio agradable</li>
+                    <li class="items">Buena localización</li>
+                    <li class="items">Profesionales calificados</li>
+                    <li class="items">Puntualidad</li>
+                    <li class="items">Limpieza</li>
+                </ul><img src="imagenes/diferenciales.jpg" alt="" class="imagen-diferenciales">
+                <!-- Para crear listas ordenadas-->
+                <!-- <ol></ol> -->
+            </div>
+
+            <div class="video">
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/CYLVmcGLpZ0?si=QvM12SPE00Ag0slD"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </section>
+
+
+    </main>
+
+    <!-- Fin de la página -->
+    <footer>
+        <img src="imagenes/logo-blanco.png" alt="Logo de la Barbería Alura">
+        <p class="copyright">&copy; Copyright Barbería Alura 2024</p>
+    </footer>
+</body>
+
+<!-- Negritas -->
+<strong></strong>
+<!-- Itálicas -->
+<em></em>
+
+</html>
