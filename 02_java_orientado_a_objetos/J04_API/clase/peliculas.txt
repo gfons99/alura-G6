@@ -1,0 +1,29 @@
+[
+  {
+    "Title": "Matrix",
+    "Released": "01 Mar 1993",
+    "DuracionEnMinutos": 60,
+    "IncluidaEnElPlan": false,
+    "NumeroDeEvaluaciones": 0,
+    "SumaDeEvaluaciones": 0.0,
+    "PromedioDeEvaluaciones": 0.0
+  },
+  {
+    "Title": "Encanto",
+    "Released": "24 Nov 2021",
+    "DuracionEnMinutos": 102,
+    "IncluidaEnElPlan": false,
+    "NumeroDeEvaluaciones": 0,
+    "SumaDeEvaluaciones": 0.0,
+    "PromedioDeEvaluaciones": 0.0
+  },
+  {
+    "Title": "Frozen",
+    "Released": "27 Nov 2013",
+    "DuracionEnMinutos": 102,
+    "IncluidaEnElPlan": false,
+    "NumeroDeEvaluaciones": 0,
+    "SumaDeEvaluaciones": 0.0,
+    "PromedioDeEvaluaciones": 0.0
+  }
+]
